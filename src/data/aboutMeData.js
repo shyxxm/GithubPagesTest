@@ -5,6 +5,6 @@ export const aboutMeData = [
 	},
 	{
 		id: 2,
-		bio: 'Jeff shyam prSSADA, hiiii eligendi corporis laudantium adipisci soluta? es',
+		bio: 'Jeff shyam prSSADA, hiiii eligendi corporis laudantium adipisci solution? es',
 	},
 ];
