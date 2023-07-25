@@ -19,7 +19,7 @@ const ProjectsGrid = () => {
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
 			<div className="text-center">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-					Projects portfolio
+					Our Jouney Begins
 				</p>
 			</div>
 
@@ -33,7 +33,7 @@ const ProjectsGrid = () => {
                         mb-3
                         "
 				>
-					Search projects by title or filter by category
+					{/* Search projects by title or filter by category */}
 				</h3>
 				<div
 					className="
@@ -45,7 +45,7 @@ const ProjectsGrid = () => {
                         gap-3
                         "
 				>
-					<div className="flex justify-between gap-2">
+					{/* <div className="flex justify-between gap-2">
 						<span
 							className="
                                 hidden
@@ -87,9 +87,9 @@ const ProjectsGrid = () => {
 							placeholder="Search Projects"
 							aria-label="Name"
 						/>
-					</div>
+					</div> */}
 
-					<ProjectsFilter setSelectProject={setSelectProject} />
+					{/* <ProjectsFilter setSelectProject={setSelectProject} /> */}
 				</div>
 			</div>
 
