@@ -8,7 +8,7 @@ const AboutMeContext = createContext();
 export const AboutMeProvider = ({ children }) => {
 	const [aboutMe, setAboutMe] = useState(aboutMeData);
 
-	const clientsHeading = clientsPageHeading;
+	// const clientsHeading = clientsPageHeading;
 
 	const [clientsData, setClientsData] = useState(clientsDataJson);
 
@@ -17,7 +17,7 @@ export const AboutMeProvider = ({ children }) => {
 			value={{
 				aboutMe,
 				setAboutMe,
-				clientsHeading,
+				// clientsHeading,
 				clientsData,
 				setClientsData,
 			}}

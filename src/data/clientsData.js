@@ -1,54 +1,30 @@
 // Import images
-import AmazonImage from '../images/brands/amazon_gray.png';
-import SonyImage from '../images/brands/sony_gray.png';
-import AdidasImage from '../images/brands/adidas_gray.png';
-import FilaImage from '../images/brands/fila_gray.png';
-import NBImage from '../images/brands/nb_gray.png';
-import SamsungImage from '../images/brands/samsung_gray.png';
-import CanonImage from '../images/brands/canon_gray.png';
-import PumaImage from '../images/brands/puma_gray.png';
+import Unity from '../images/brands/unity_logo.png';
+import React from '../images/brands/react_logo.png';
+import TailWind from '../images/brands/tailwind_logo.png';
+import CSS_logo from '../images/brands/css_logo.png';
 
-export const clientsHeading = 'Some of the brands that rockkkk';
+// export const clientsHeading = 'Technologies Used';
 
 export const clientsData = [
 	{
 		id: 1,
-		title: 'Amazon',
-		img: AmazonImage,
+		title: 'Unity',
+		img: Unity,
 	},
 	{
 		id: 2,
-		title: 'Sony',
-		img: SonyImage,
+		title: 'React',
+		img: React,
 	},
 	{
 		id: 3,
-		title: 'Adidas',
-		img: AdidasImage,
+		title: 'TailWind',
+		img: TailWind,
 	},
 	{
 		id: 4,
-		title: 'FILA',
-		img: FilaImage,
-	},
-	{
-		id: 5,
-		title: 'NB',
-		img: NBImage,
-	},
-	{
-		id: 6,
-		title: 'SAMSUNG',
-		img: SamsungImage,
-	},
-	{
-		id: 7,
-		title: 'CANON',
-		img: CanonImage,
-	},
-	{
-		id: 8,
-		title: 'PUMA',
-		img: PumaImage,
-	},
+		title: 'CSS',
+		img: CSS_logo,
+	}
 ];
