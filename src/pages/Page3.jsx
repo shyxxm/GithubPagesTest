@@ -20,7 +20,7 @@ const Prototyping = () => {
 	return (
 	  <>
 		{/* Section - Hi-Fi Prototype #Initial */}
-		<section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }}>
+		<section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
         <h2 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Hi-Fi Prototypes</h2>
         <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Hi-Fi Prototype #Initial</h2>
 		   {/* Carousel for Figma_Flow_Long */}
@@ -44,6 +44,7 @@ const Prototyping = () => {
             </div>
           ))}
         </Carousel>
+
       </section>
         {/* Sub-Headers */}
         <ul style={{ fontSize: '1.2rem' }}>
@@ -79,7 +80,7 @@ const Prototyping = () => {
 		<hr style={{ margin: '2rem 10%', border: '1px solid' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light"/>		
 
 		{/* Section - Feedbacks */}
-		<section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }}>		
+		<section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">		
 		  	<h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Client Feedback</h2>
 			{/* Sub-Headers */}
 			<ul style={{ fontSize: '1.2rem' }}>
@@ -109,7 +110,7 @@ const Prototyping = () => {
 		<hr style={{ margin: '2rem 10%', border: '1px solid' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light"/>
 
 		{/* Section - Final Prototype */}
-		<section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }}>		
+		<section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">		
 		  	<h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Hi-Fi Prototype #Final</h2>
 		{/* Carousel for Figma_Flow_Short */}
 		<section style={{ padding: '1rem 1rem' }}>
