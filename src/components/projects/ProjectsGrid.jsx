@@ -13,10 +13,10 @@ import Card from "./Card"
 const ProjectsGrid = () => {
 
 	const data = [
-		{ id: 1, title: 'Item 1', details: 'Details for item 1', imageUrl: discussion1 },
-		{ id: 2, title: 'Item 2', details: 'Details for item 2', imageUrl: discussion2 },
-		{ id: 3, title: 'Item 3', details: 'Details for item 3', imageUrl: discussion3 },
-		{ id: 4, title: 'Item 4', details: 'Details for item 4', imageUrl: discussion1}
+		{ id: 1, title: 'Requirement Gathering, Ideation', details: 'Details for item 1', imageUrl: discussion1 },
+		{ id: 2, title: 'Wireframing and Usability Testing', details: 'Details for item 2', imageUrl: discussion2 },
+		{ id: 3, title: 'Prototyping', details: 'Details for item 3', imageUrl: discussion3 },
+		{ id: 4, title: 'Finalised Prototype and Poster', details: 'Details for item 4', imageUrl: discussion1}
 	  ];
 
 	return (
@@ -26,7 +26,7 @@ const ProjectsGrid = () => {
           Our Journey Begins
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {data.map(item => (
           <Link to={`/page${item.id}`} key={item.id}>
             <Card title={item.title} details={item.details} imageUrl={item.imageUrl} />

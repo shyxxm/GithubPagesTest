@@ -1,6 +1,4 @@
-{
-	"homepage": "https://shyxxm.github.io/GithubPagesTest/",
-	"name": "react-tailwindcss-portfolio",
+{	"name": "react-tailwindcss-portfolio",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
