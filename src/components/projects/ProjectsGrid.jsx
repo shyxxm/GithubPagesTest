@@ -5,7 +5,7 @@ import { ProjectsContext } from '../../context/ProjectsContext';
 import ProjectsFilter from './ProjectsFilter';
 import hunterianMuseum from '../../images/hunterian_museum.jpg'
 import discussion1 from '../../images/experiment/discussion-1.png'
-import discussion2 from '../../images/experiment/discussion-2.png'
+import discussion2 from '../../images/wireframing/wireframe05.jpg'
 import discussion3 from '../../images/experiment/discussion-2.png'
 import { Link } from 'react-router-dom';
 import Card from "./Card"
@@ -13,10 +13,10 @@ import Card from "./Card"
 const ProjectsGrid = () => {
 
 	const data = [
-		{ id: 1, title: 'Requirement Gathering, Ideation', details: 'Details for item 1', image: discussion1 },
-		{ id: 2, title: 'Wireframing and Usability Testing', details: 'Details for item 2', image: discussion2 },
-		{ id: 3, title: 'Prototyping', details: 'Details for item 3', image: discussion3 },
-		{ id: 4, title: 'Finalised Prototype and Poster', details: 'Details for item 4', image: discussion1}
+		{ id: 1, title: 'Journey 1: Requirement Gathering, Ideation', details: 'This is where we meet The Hunterian Education Manager.', image: discussion1 },
+		{ id: 2, title: 'Journey 2: Wireframing and Usability Testing', details: 'The team showcase their brainstormed ideas and wireframes.', image: discussion2 },
+		{ id: 3, title: 'Journey 3: Prototyping', details: 'Details for item 3', image: discussion3 },
+		{ id: 4, title: 'Journey 4: Finalised Prototype and Poster', details: 'Details for item 4', image: discussion1}
 	  ];
 
 	return (
