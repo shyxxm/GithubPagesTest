@@ -54,7 +54,7 @@ const Prototyping = () => {
 			The design introduces a simple and intuitive interface with a clean and modern look. <br/><br/> To foster interactivity 
 			with the application, the team incorporated a variety of visual elements, including a map, a storyline with a 
 			mascot named Ms Monocles. Ms Monocles will guide the players through the application and provide hints to help
-			them solve the puzzles.
+			them solve the puzzles. (Talk about ms monocles somewhere)
 		  </p>
           <li style={{ textDecoration: 'underline' }}>Color Theme</li>
           <p style={{marginBottom: '1rem'}}>
