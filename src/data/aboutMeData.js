@@ -1,6 +1,6 @@
 import profileShyam from '../images/shyam_profile.jpg';
 import profileAyan from '../images/ayan_profile.jpg';
-import profileJeff from '../images/jeff_profile.jpg';
+import profileJeff from '../images/jeff_profile.JPG';
 import profileJX from '../images/jx.JPG';
 import profileXJ from '../images/xj_profile.jpg';
 import profileIvan from '../images/ivan_profile.jpg';
@@ -11,7 +11,7 @@ export const aboutMeData = [
 	{
 	  id: 1,
 	  header: 'Shyam - Project Manager',
-	  bio: 'In the quaint little town of Everbrook, nestled amidst rolling hills and lush forests, life seemed to flow at its own unhurried pace. The narrow cobblestone streets were lined with charming cottages adorned with colorful flower boxes, and the air carried the sweet scent of freshly baked bread from the local bakery. Everbrook was a place where neighbors knew each other by name, and the sense of community was palpable.',
+	  bio: "Hi! I'm Shyam Prasad, currently in my 2nd year of studying SIT-UoG Computing Science. As the Project Manager for this Design Project, I've had an enriching experience, thanks to the unwavering support of our client, Ruth Fletcher, and our dedicated Professor, Jonathan Grizou. This journey has been transformative, allowing me to refine skills in project management, leadership, and client communications. Collaborating with a talented team, we created innovative solutions to meet our clients' needs. From requirement gathering to app development, each step was rewarding and engaging. Overall, this project has been a remarkable journey of growth, both personally and professionally, and I look forward to applying these experiences in my future endeavors.",
 	  profileImage: profileShyam, // Replace this URL with the appropriate image URL
 	},
 	{

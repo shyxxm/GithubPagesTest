@@ -23,13 +23,20 @@ const Contact = () => {
             }}
             className="container mx-auto py-5 lg:py-10 lg:mt-10"
         >
+
+<section style={{ paddingTop:'1%', padding: '1rem 2rem' }} className="text-ternary-dark dark:text-ternary-light" >
+		
 	<div className="text-ternary-dark dark:text-ternary-light" >
-	<h1 className={styles.header}>Requirement Gathering and Ideation</h1>
+    <h1 className={styles.header}>
+      <div className={styles.headerContent}>
+        Requirement Gathering and Ideation
+      </div>
+    </h1>	
 	</div>
 
 	<figure className='figure'>
 	<img
-	className="h-96 w-full rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50 mt-12"
+	className="h-96 w-full rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50 mt-2"
 	src={firstMeeting}
 	alt="nature image"
 	/>
@@ -158,16 +165,16 @@ const Contact = () => {
 	</div>
 
 	<div className=" text-ternary-dark dark:text-ternary-light" >
-	<h1 className={styles.thirdheading}>The process involves using a camera to scan an artifact, triggering object recognition. Once the object is recognized, the system initiates appropriate animations that play out to convey a visual storytelling experience.</h1>
+	<h1 className={styles.thirdheading}>This idea involves having puzzles at different locations of the museum. Each puzzle piece contains a fact about the artefact. Upon solving the puzzle, users will receive a digital art piece by the museum.</h1>
 	</div>
 
 	<div className=" text-ternary-dark dark:text-ternary-light" >
 	<h1 className={styles.secheading}>Idea 3: Mini-Games</h1>
 	</div>
 	<div className=" text-ternary-dark dark:text-ternary-light" >
-
-<h1 className={styles.thirdheading}>The process involves using a camera to scan an artifact, triggering object recognition. Once the object is recognized, the system initiates appropriate animations that play out to convey a visual storytelling experience.</h1>
-</div>
+	<h1 className={styles.thirdheading}>This idea, similar to idea 2, involes having different games at different exhibits in the musuem. Games include puzzle games, games involving different pitches and tones, and even a game where shark eats fish. Users get a badge after completing each game</h1>
+	</div>
+</section>
         </motion.div>
     );
 };
@@ -191,7 +198,7 @@ const hello = {
 	  marginRight: 20
 	},
 	subText: {
-		fontSize: 14,
+		fontSize: 18,
 		fontWeight: 'normal',
 	  },
 	verticalLine: {

@@ -6,18 +6,30 @@
 }
 
 .header {
-    font-size: 80px;
+    /* font-size: 80px;
     text-align: left;
     position: absolute;
     top: 120px;
     left: 0;
-    bottom: 10px;
     right: 0;
     width: 100%;
     z-index: 1;
     font-family: 'YourCustomFont', 'Times New Roman', Times, serif;
     margin-bottom: 30px;
-    margin-left: 360px;
+    display: flex;
+    justify-content: center; */
+    font-size: 4rem;
+    margin-bottom: '0rem';
+    font-family: 'YourCustomFont', 'Times New Roman', Times, serif;
+    text-align: left;
+
+
+}
+
+/* Add a wrapper for the left margin */
+.header-content {
+    max-width: 1200px; /* Adjust this value to your desired max width */
+    padding-left: 300px;
 }
 
 .image {
@@ -102,10 +114,10 @@
 
   /* styles.css */
 .customheading {
-    margin-top: 20px;
     font-size: 4rem;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 10px;
+    margin-bottom: '0.5rem';
+    font-family: 'YourCustomFont', 'Times New Roman', Times, serif;
+    text-align: left;
   }
 
     /* styles.css */
@@ -113,7 +125,6 @@
     margin-top: 20px;
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 15px;
 
   }
 
@@ -121,18 +132,16 @@
     margin-top: 20px;
     font-size: 1.2rem;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 15px;
 
   }
 
   .caption {
-    margin-top: 20px;
+    margin-top: 14px;
     font-size: 1.2rem;
     font-family: 'Times New Roman', Times, serif;
     display: flex; /* Add this to enable flexbox */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    margin-left: 15px;
   }
   
 
@@ -142,6 +151,21 @@
     justify-content: space-between;
     margin-bottom: 1rem;
 }
+
+.fourthheading {
+    margin-top: 8px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  .ideaheading {
+    font-size: 4rem;
+    margin-bottom: '0.5rem';
+    font-family: 'YourCustomFont', 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-top: '50px';
+  }
 
 
 
