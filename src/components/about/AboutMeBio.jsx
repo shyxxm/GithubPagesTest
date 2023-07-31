@@ -58,10 +58,10 @@ const AboutMeBio = () => {
 >
   {/* Show the selected image and additional text (bio) in the modal */}
   {selectedImage && (
-   <div className="modal-content px-4 py-6"> {/* Add padding to the content */}
+   <div className="modal-content px-4 py-8"> {/* Add padding to the content */}
    <img
 	 src={selectedImage.profileImage}
-	 className="rounded-lg w-96 my-4"
+	 className="rounded-lg w-96 my-6"
 	 alt=""
 	 style={{ margin: 'auto' }}
    />
@@ -71,7 +71,7 @@ const AboutMeBio = () => {
    <p className="text-ternary-dark dark:text-ternary-light text-center my-2 px-4 py-4"> {/* Add margin (spacing) to the top and bottom of the paragraph */}
 	 {selectedImage.bio}
    </p>
-   <div className=" my-2 px-4 py-4" >
+   <div className=" my-2 px-4 py-2" >
 
    </div>
  </div>
