@@ -14,27 +14,37 @@ import userability04 from '../images/experiment/user04.jpeg'
 import userability05 from '../images/experiment/user05.jpeg'
 import userability06 from '../images/experiment/user06.jpeg'
 import userability07 from '../images/experiment/user07.jpeg'
+import idea11 from '../images/wireframing/idea1-1.jpeg'
+import idea12 from '../images/wireframing/idea1-2.jpeg'
+import idea32 from '../images/wireframing/idea3-2.jpeg'
+import idea33 from '../images/wireframing/idea3-3.jpeg'
 
 
 const HomePage = () => {
 	const cards = [
 	  {
 		id: 1,
-		title: 'Idea 01 - Interactive Educational Entertainment Game',
+		title: 'Idea 1 Wireframe',
 		details: 'Minigames that targets younger kids between 11 to 14.',
 		image: idea1,
 	  },
 	  {
 		id: 2,
-		title: 'Idea 02 - Treasure Hunterian Game',
+		title: 'Idea 2 Wireframe',
 		details: 'A game targeting younger kids between 11 to 14.',
 		image: idea2,
 	  },
 	  {
 		id: 3,
-		title: 'Idea 03 - Object Recognition Visual Storytelling Game',
+		title: 'Idea 3 Wireframe',
 		details: 'A game targeting younger kid between 11 to 14.',
 		image: idea30,
+	  },
+	  {
+		id: 4,
+		title: 'Idea 3 Storyboard',
+		details: 'Using storyboard to get the flow of the game.',
+		image: idea31,
 	  },
 	]
 
@@ -43,13 +53,13 @@ const HomePage = () => {
 			id: 1,
 			title: 'The Brainstorming Process',
 			details: 'The team wants to ensure while the kids are interacting with the application’s engaging games, they would still be cautious and aware of their surroundings. Hence, the mini games the team has brainstormed incorporates interactions of the artefacts while playing them. 3 main mini games that were idealised were a puzzle, a listening and a mining game. To have the proper interactions of the application, the children would have to go to the relevant locations to start the activity and engage with the artefact.',
-			image: wireframe01,
+			image: idea11,
 		},
 		{
 			id: 2,
 			title: 'How to Play?',
 			details: 'Play it on your mobile phone. Walk around the museum to find the access codes, with a total of 3 minigames. Get rewarded when all games are completed! After completion, be part of the highscore board.',
-			image: wireframe02,
+			image: idea12,
 		},
 	]
 
@@ -74,13 +84,13 @@ const HomePage = () => {
 			id: 1,
 			title: 'The Brainstorming Process ',
 			details: 'The team have came up with an exciting way to introduce educational content to engage children during their visit in the museum. An interactive adventure along with a companion guide which would accompany the players throughout their journey would captivate their interest in interacting with the application. The quest provides informative clues and guides, allowing children to explore the museum in a fun way.',
-			image: wireframe01,
+			image: idea32,
 		},
 		{
 			id: 2,
 			title: 'How to Play? ',
 			details: 'Simply get on the website and use your mobile phone as the camera. The game would be in Augmented Reality with a companion to guide you along, follow the instructions and dialogues throughout the play the game. At every quest, you would be required to find the artifact and scan it to unlock the next quest. Upon completion, you would be rewarded with a digital gift and a chance to be featured in the leaderboard.',
-			image: wireframe02,
+			image: idea33,
 		}
 	]
 
@@ -88,44 +98,44 @@ const HomePage = () => {
 	const usabilityTestingCard01 = [
 		{
 			id: 1,
-			title: 'Usability Testing -  ',
-			details: 'Here we have a game that focuses on ',
+			title: 'Starting the game',
+			details: 'This is what the user would see when they start the game',
 			image: userability01,
 		},
 		{
 			id: 2,
-			title: 'Usability Testing - ',
-			details: 'Lorem ipsum dolor sit amet.',
+			title: 'Selecting the genre',
+			details: 'Players would then choose their genre, which is according to the section of the museum they are interested in',
 			image: userability02,
 		},
 		{
 			id: 3,
-			title: 'Usability Testing - ',
-			details: 'Lorem ipsum dolor sit amet.',
+			title: 'Finding the location',
+			details: 'The game would then lead the player to the next location, and we understand better on how they would look out for it. A Minimap would be provided to help them navigate.',
 			image: userability03,
 		},
 		{
 			id: 4,
-			title: 'Usability Testing - ',
-			details: 'Lorem ipsum dolor sit amet.',
+			title: 'Players finding their way',
+			details: 'We understand that players would take some time to get a bearing of where they are and where they should go.',
 			image: userability04,
 		},
 		{
 			id: 5,
-			title: 'Usability Testing - ',
-			details: 'Lorem ipsum dolor sit amet.',
+			title: 'Puzzle Piece Clue to unlock the game',
+			details: 'We want players to be at the right location, so we gave a piece of clue to unlock the game. The clues we gave may be too vague but it might encourage them to explore more. ',
 			image: userability05,
 		},
 		{
 			id: 6,
-			title: 'Usability Testing - ',
-			details: 'Lorem ipsum dolor sit amet.',
+			title: 'Trying to find the answer based on the clue',
+			details: 'As the player try to find the answer, we understand better on how they would look for it.',
 			image: userability06,
 		},
 		{
 			id: 7,
-			title: 'Usability Testing - ',
-			details: 'Lorem ipsum dolor sit amet.',
+			title: 'Game unlocked ',
+			details: 'Once the clue is solved, the game would be unlocked and the player can start playing it',
 			image: userability07,
 		},
 	]
@@ -160,9 +170,14 @@ const HomePage = () => {
 	  {/* GRIDS HERE! */}
 
 		{/* For Idea 1 */}
+		<div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
+  			<p style={{ fontSize: '40px', textAlign: 'center', lineHeight: '60px', color: '#FFFFFF'}}>1</p>
+		</div>
+
 		<div>
-		<p style={{fontSize: "40px", textAlign: "left"}}className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light">
-		<u>Idea 01</u>
+		
+		<p style={{fontSize: "50px", textAlign: "left"}}className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light">
+		Interactive Educational Entertainment Game
 		</p>
 		</div>
 	  
@@ -199,8 +214,11 @@ const HomePage = () => {
 
 
 	{/* For Idea 2 */}
+	<div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
+  			<p style={{ fontSize: '50px', textAlign: 'center', lineHeight: '60px', color: '#FFFFFF'}}>2</p>
+		</div>
 	<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-		<u>Idea 02 </u>
+		Treasure Hunterian Game
 		</p>
 		<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
 		{cards.map((card) => {
@@ -216,7 +234,7 @@ const HomePage = () => {
 			}
 			})}
 
-			{/* Idea 01 small grid */}
+			{/* Idea 02 small grid */}
 		<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
 		{cardIdea02.map((card2) => {
 				return (
@@ -234,12 +252,15 @@ const HomePage = () => {
 	{/* For Idea 3 */}
 	<br></br>
 	<br></br>
+	<div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
+  			<p style={{ fontSize: '50px', textAlign: 'center', lineHeight: '60px', color: '#FFFFFF'}}>3</p>
+		</div>
 	<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-		<u>Idea 03</u>
+		Treasure Hunterian Game
 		</p>
 		<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
 		{cards.map((card) => {
-			if (card.id === 3) {
+			if (card.id === 3 || card.id === 4) {
 				return (
 				  <Card
 					key={card.id}
@@ -251,7 +272,9 @@ const HomePage = () => {
 			}
 			})}
 
-			{/* Idea 01 small grid */}
+			
+		</div>
+		{/* Idea 03 small grid */}
 		<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
 		{cardIdea03.map((card) => {
 				return (
@@ -263,7 +286,6 @@ const HomePage = () => {
 				  />
 				);
 			})}
-		</div>
 		</div>
 	
 	
@@ -298,13 +320,27 @@ const HomePage = () => {
 		<br></br>
 		<div>
 			<p style={{ fontSize: "80px" }} className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light text-center">
-				Want to learn our next stage?<br></br> Click the button below!
+				Want to learn our next chapter?<br></br>
 				</p>
 				<br></br>
 				<div className='text-center'>
-				<a href="page3" class="bg-primary-light hover:bg-ternary-light text-black font-bold py-3 px-10 rounded shadow-md">
-  					The Button
+				<a
+					href="page3"
+					style={{
+						backgroundColor: '#0097A7',
+						color: 'white',
+						fontWeight: 'bold',
+						padding: '0.75rem 2.5rem',
+						borderRadius: '0.25rem',
+						boxShadow: '0 2px 4px rgba(0, 0, 0, 1)',
+						transition: 'background-color 0.5s',
+					}}
+					onMouseEnter={(e) => (e.target.style.backgroundColor = 'green')}
+					onMouseLeave={(e) => (e.target.style.backgroundColor = '#0097A7')}>
+
+					Visit Chapter 3
 				</a>
+
 				</div>
 		</div>
 		</div>
