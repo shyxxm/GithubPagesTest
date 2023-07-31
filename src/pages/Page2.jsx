@@ -18,6 +18,9 @@ import idea11 from '../images/wireframing/idea1-1.jpeg'
 import idea12 from '../images/wireframing/idea1-2.jpeg'
 import idea32 from '../images/wireframing/idea3-2.jpeg'
 import idea33 from '../images/wireframing/idea3-3.jpeg'
+import styles from "../css/Picture.module.css";
+
+
 
 
 const HomePage = () => {
@@ -142,44 +145,75 @@ const HomePage = () => {
 
   
 	return (
-	  <div style={{padding:"100px"}}className="flex justify-center items-center flex-col h-screen">
-		<h1 style={{ fontSize: "80px" }} className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light">
-			Wireframing and Usability Testing
-		</h1>
 
-		<div>
-        <img src={require("../images/wireframing/work01.gif").default} alt="GIF" className="w-1/2 h-auto" />
+		<section style={{ padding: '1rem 2rem' }} >
+
+		{/* <h1 style={{ fontSize: "80px" }} className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light">
+			Wireframing and Usability Testing
+		</h1> */}
+
+		<div className="text-ternary-dark dark:text-ternary-light" >
+    <h1 className={styles.secondheader}>
+      <div className={styles.headerContent}>
+	  Wireframing and Usability Testing
       </div>
+    </h1>	
+	</div>
+	<figure>
+	<div className={styles.imageWrapper}>
+			<img src={require("../images/wireframing/work01.gif").default} alt="GIF" className="w-1/2 h-auto" />
+		</div>
+		<div className="text-ternary-dark dark:text-ternary-light" >
+
+		<figcaption className={styles.secondcaption} >The team's first requirement gathering meeting with Ruth Fletcher, Education Manager at the Hunterian Museum.</figcaption>
+		</div>
+    </figure>
+
+
 
 	  
 		
-		<p style={{ fontSize: "25px", textAlign:"center", paddingLeft:"200px", paddingRight:"200px"}} className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light">
+		{/* <p style={{ fontSize: "25px", textAlign:"center", paddingLeft:"200px", paddingRight:"200px"}} className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light">
 		The intention of is to design a simple, fun to play yet simple web application through wire framing while meeting the client’s requirements.
 
 		<br></br><br></br>This includes a brain storming session where team members bounce ideas off each other and start designing those ideas as a pair. 
 		<br></br><br></br>The following are the team’s sketches of the ideas, with substantiating pointers of the team.
-		</p>
+		</p> */}
 
 	  <br></br>
-	  <br></br>
-	  <p style={{ fontSize: "60px"}} className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light">
+	  {/* <p style={{ fontSize: "60px"}} className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light">
 		Wireframing
-	  </p>
+	  </p> */}
+		<section style={{ marginLeft: '19%', marginRight: '20%', padding: '1rem 2rem' }}>
+	  <div className="text-ternary-dark dark:text-ternary-light" >
+    <h1 className={styles.header}>
+      <div className={styles.headerContent}>
+	  Wireframing      
+	  </div>
+    </h1>	
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.thirdheading}>The intention of is to design a simple, fun to play yet simple web application through wire framing while meeting the client’s requirements.</h1>
+	<h1 className={styles.thirdheading}>This includes a brain storming session where team members bounce ideas off each other and start designing those ideas as a pair.</h1>
+	<h1 className={styles.thirdheading}>The following are the team’s sketches of the ideas, with substantiating pointers of the team.</h1>
+
+	</div>
+
 	  <br></br>
 
 	  {/* GRIDS HERE! */}
 
-		{/* For Idea 1 */}
-		<div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
-  			<p style={{ fontSize: '40px', textAlign: 'center', lineHeight: '60px', color: '#FFFFFF'}}>1</p>
-		</div>
-
-		<div>
-		
-		<p style={{fontSize: "50px", textAlign: "left"}}className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light">
-		Interactive Educational Entertainment Game
-		</p>
-		</div>
+	  <div style={{ display: 'flex', alignItems: 'center' }}>
+  {/* For Idea 1 */}
+  <div style={{ marginRight: '10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
+    <p style={{ fontSize: '40px', textAlign: 'center', lineHeight: '60px', color: '#FFFFFF'}}>1</p>
+  </div>
+  <div className="text-ternary-dark dark:text-ternary-light">
+    <h1 className={styles.secheading}>Interactive Educational Entertainment Game</h1>
+  </div>
+</div>
+<br></br>
 	  
 		<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
 		{cards.map((card) => {
@@ -214,12 +248,29 @@ const HomePage = () => {
 
 
 	{/* For Idea 2 */}
-	<div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
+	{/* <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
   			<p style={{ fontSize: '50px', textAlign: 'center', lineHeight: '60px', color: '#FFFFFF'}}>2</p>
 		</div>
-	<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-		Treasure Hunterian Game
-		</p>
+
+		<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.secheading}>Idea 2: Treasure Hunterian Game
+
+</h1>
+
+</div> */}
+
+<div style={{ display: 'flex', alignItems: 'center' }}>
+  {/* For Idea 2 */}
+  <div style={{ marginRight: '10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
+    <p style={{ fontSize: '40px', textAlign: 'center', lineHeight: '60px', color: '#FFFFFF'}}>2</p>
+  </div>
+  <div className="text-ternary-dark dark:text-ternary-light">
+    <h1 className={styles.secheading}>Treasure Hunterian Game</h1>
+  </div>
+</div>
+<br></br>
+
+
 		<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
 		{cards.map((card) => {
 			if (card.id === 2) {
@@ -252,12 +303,30 @@ const HomePage = () => {
 	{/* For Idea 3 */}
 	<br></br>
 	<br></br>
-	<div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
+	{/* <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
   			<p style={{ fontSize: '50px', textAlign: 'center', lineHeight: '60px', color: '#FFFFFF'}}>3</p>
-		</div>
-	<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
+		</div> */}
+	{/* <p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
 		Treasure Hunterian Game
-		</p>
+		</p> */}
+
+		{/* <div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.secheading}>Idea 3: Object Recognition Visual Storytelling
+
+</h1>
+	</div> */}
+
+	<div style={{ display: 'flex', alignItems: 'center' }}>
+  {/* For Idea 2 */}
+  <div style={{ marginRight: '10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '60px', height: '60px', borderRadius: '50%', backgroundColor: '#31C283'}}>
+    <p style={{ fontSize: '40px', textAlign: 'center', lineHeight: '60px', color: '#FFFFFF'}}>3</p>
+  </div>
+  <div className="text-ternary-dark dark:text-ternary-light">
+    <h1 className={styles.secheading}>Object Recognition Visual Storytelling</h1>
+  </div>
+</div>
+<br></br>
+
 		<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
 		{cards.map((card) => {
 			if (card.id === 3 || card.id === 4) {
@@ -293,10 +362,17 @@ const HomePage = () => {
 		<br></br>
 		<br></br>
 		<div>
-		<p style={{ fontSize: "60px"}} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light text-center">
+		{/* <p style={{ fontSize: "60px"}} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light text-center">
 		Usability Testing
-	  </p>
-	  <br></br>
+	  </p> */}
+
+	  <div className="text-ternary-dark dark:text-ternary-light" >
+    <h1 className={styles.header}>
+      <div className={styles.headerContent}>
+	  Usability Testing      
+	  </div>
+    </h1>	
+	</div>
 	  <br></br>
 	  <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4">
 		{usabilityTestingCard01.map((card) => {
@@ -310,7 +386,7 @@ const HomePage = () => {
 				);
 			})}
 
-		<p style={{ fontSize: "80px" }} className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light">
+		<p style={{ fontSize: "80px" }} className="font-general-medium mb-1 text-ternary-dark dark:text-ternary-light text-center">
 		We Learned Better By Actually Testing It Physically!
 	  </p>
 		</div>
@@ -324,6 +400,7 @@ const HomePage = () => {
 				</p>
 				<br></br>
 				<div className='text-center'>
+					<br></br>
 				<a
 					href="page3"
 					style={{
@@ -344,7 +421,8 @@ const HomePage = () => {
 				</div>
 		</div>
 		</div>
-			</div>
+		</section>
+			</section>
 		);
 	};
 	
