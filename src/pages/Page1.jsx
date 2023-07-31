@@ -27,7 +27,7 @@ const Contact = () => {
 <section style={{ paddingTop:'1%', padding: '1rem 2rem' }} className="text-ternary-dark dark:text-ternary-light" >
 		
 	<div className="text-ternary-dark dark:text-ternary-light" >
-    <h1 className={styles.header}>
+    <h1 className={styles.mainheader}>
       <div className={styles.headerContent}>
         Requirement Gathering and Ideation
       </div>
