@@ -155,7 +155,7 @@ const AppHeader = () => {
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
-						About Designers
+						About The Team
 					</Link>
 					{/* <Link
 						to="/contact"
