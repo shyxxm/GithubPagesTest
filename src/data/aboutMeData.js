@@ -1,6 +1,6 @@
 import profileShyam from '../images/shyam_profile.jpg';
 import profileAyan from '../images/ayan_profile.jpg';
-import profileJeff from '../images/jeff_profile.jpg';
+import profileJeff from '../images/jeff_profile.JPG';
 import profileJX from '../images/jx.JPG';
 import profileXJ from '../images/xj_profile.jpg';
 import profileIvan from '../images/ivan_profile.jpg';
