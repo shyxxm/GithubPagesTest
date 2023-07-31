@@ -16,9 +16,56 @@ const Prototyping = () => {
 		  slidesToSlide: 3, // Show 3 images at a time
 		}
 	  };
+	    // state variables for each sub header
+		const [showAppDesign, setShowAppDesign] = useState(false);
+		const [showColorTheme, setShowColorTheme] = useState(false);
+		const [showAssets, setShowAssets] = useState(false);
+		const [showCartoonStyle, setShowCartoonStyle] = useState(false);
 
+		
 	return (
 	  <>
+	  {/* Section - Hi-Fi Prototype #Initial */}
+      <section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
+        <h2 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Hi-Fi Prototypes</h2>
+        <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Hi-Fi Prototype #Initial</h2>
+
+			{/* Cards for sub headers */}
+			<section style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', padding: '1rem 0' }}>
+			<div style={{ boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)', padding: '0.5rem', borderRadius: '20px', textAlign: 'center', position: 'relative', border: '2px solid #ccc' }} onMouseOver={() => setShowAppDesign(true)} onMouseLeave={() => setShowAppDesign(false)}>
+					<h3 style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', opacity: showAppDesign ? '0' : '1', transition: 'opacity .3s ease-in-out' }}>App Design</h3>
+					<ul style={{ marginTop: '1rem', fontSize: '1rem', opacity: showAppDesign ? '1' : '0', transition: 'opacity .3s ease-in-out', textAlign: 'left', listStyleType: 'disc', paddingLeft: '1rem' }}>
+						<li>&nbsp;Designed with a simple and intuitive interface.</li>
+						<li>&nbsp;Incorporated various visual elements, including a map and storyline</li>
+						<li>&nbsp;A Mascot that guides players to solve puzzles.</li>
+					</ul>
+				</div>
+				<div style={{ boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)', padding: '0.5rem', borderRadius: '20px', textAlign: 'center', position: 'relative', border: '2px solid #ccc' }} onMouseOver={() => setShowColorTheme(true)} onMouseLeave={() => setShowColorTheme(false)}>
+					<h3 style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', opacity: showColorTheme ? '0' : '1', transition: 'opacity .3s ease-in-out' }}>Color Theme</h3>
+					<ul style={{ marginTop: '1rem', fontSize: '1rem', opacity: showColorTheme ? '1' : '0', transition: 'opacity .3s ease-in-out', textAlign: 'left', listStyleType: 'disc', paddingLeft: '1rem' }}>
+						<li>&nbsp;Light and pastel colors used as the theme of the app.</li>
+						<li>&nbsp;Target audience enticed by the appealing color scheme.</li>
+						<li>&nbsp;Captivating design enhances user engagement in the game.</li>
+					</ul>
+				</div>
+				<div style={{ boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)', padding: '0.5rem', borderRadius: '20px', textAlign: 'center', position: 'relative', border: '2px solid #ccc' }} onMouseOver={() => setShowAssets(true)} onMouseLeave={() => setShowAssets(false)}>
+					<h3 style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', opacity: showAssets ? '0' : '1', transition: 'opacity .3s ease-in-out' }}>Assets</h3>
+					<ul style={{ marginTop: '1rem', fontSize: '1rem', opacity: showAssets ? '1' : '0', transition: 'opacity .3s ease-in-out', textAlign: 'left', listStyleType: 'disc', paddingLeft: '1rem' }}>
+						<li>&nbsp;Used a mix of custom and stock illustrations.</li>
+						<li>&nbsp;Created a unique look and feel for the application.</li>
+						<li>&nbsp;Illustrations designed to be playful and engaging.</li>
+					</ul>
+				</div>
+				<div style={{ boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)', padding: '0.5rem', borderRadius: '20px', textAlign: 'center', position: 'relative', border: '2px solid #ccc' }} onMouseOver={() => setShowCartoonStyle(true)} onMouseLeave={() => setShowCartoonStyle(false)}>
+					<h3 style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', opacity: showCartoonStyle ? '0' : '1', transition: 'opacity .3s ease-in-out' }}>Cartoon Style</h3>
+					<ul style={{ marginTop: '1rem', fontSize: '1rem', opacity: showCartoonStyle ? '1' : '0', transition: 'opacity .3s ease-in-out', textAlign: 'left', listStyleType: 'disc', paddingLeft: '1rem' }}>
+						<li>&nbsp;Cartoon style illustrations used to appeal to the target audience.</li>
+						<li>&nbsp;Playful and engaging design for enhanced user experience.</li>
+					</ul>
+				</div>
+			</section>
+		</section>
+
 		{/* Section - Hi-Fi Prototype #Initial */}
 		<section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
         <h2 style={{ fontSize: '3rem', marginBottom: '1rem' }}>Hi-Fi Prototypes</h2>
