@@ -27,7 +27,7 @@ const Contact = () => {
 <section style={{ paddingTop:'1%', padding: '1rem 2rem' }} className="text-ternary-dark dark:text-ternary-light" >
 		
 	<div className="text-ternary-dark dark:text-ternary-light" >
-    <h1 className={styles.header}>
+    <h1 className={styles.mainheader}>
       <div className={styles.headerContent}>
         Requirement Gathering and Ideation
       </div>
@@ -58,9 +58,104 @@ const Contact = () => {
       </Typography>
     </figure> */}
 
-	<div className="text-ternary-dark dark:text-ternary-light" >
+<div className="text-ternary-dark dark:text-ternary-light" >
 	<h1 className={styles.customheading}>Requirements Gathered</h1>
 	</div>
+
+	<div style={hello.ridesFriends} className="text-ternary-dark dark:text-ternary-light">
+      <div style={{ textAlign: 'center' }}>
+        <span style={hello.numbers} className="text-ternary-dark dark:text-ternary-light">Target Audience </span>
+        <br />
+        <span style={hello.subText}>For Age Groups 8-11 and 11-14</span>
+      </div>
+      <div style={hello.verticalLine}>
+        <span style={hello.line} className="text-ternary-dark dark:text-ternary-light" ></span>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+        <span style={hello.numbers}>Interactive Experience</span>
+        <br />
+        <span style={hello.subText}>Engaging Interaction between app and artefact</span>
+      </div>
+      <div style={hello.verticalLine}>
+        <span style={hello.line}></span>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+        <span style={hello.numbers}>Web-based</span>
+        <br />
+        <span style={hello.subText}>Non-downloadable</span>
+      </div>
+      <div style={hello.verticalLine}>
+        <span style={hello.line}></span>
+      </div>
+      <div style={{ textAlign: 'center' }}>
+        <span style={hello.numbers}>Non-competitive</span>
+        <br />
+        <span style={hello.subText}>Ensuring safety of participants</span>
+      </div>
+    </div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.customheading}>Detail of Requirements</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.secheading}>Requirement 1: Target Audience</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.thirdheading}>The application's target audience is either the age group of 8-11 or 11-14, with a specific focus on the age group of 11-14. The main objective is to create an application that not only provides educational content but also includes engaging and enjoyable games to capture the attention of kids.</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.secheading}>Requirement 2: Interactive Experience</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.thirdheading}>Users should be able to spend time looking at the artifact while also interacting with the application.</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.secheading}>Requirement 3: Web-based Application</h1>
+	</div>
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.thirdheading}>The application should be web-based, eliminating the need for users to download it. It should also be designed to be mobile-friendly, allowing users to interact with it seamlessly on their mobile phones.</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.secheading}>Requirement 4: Non-competitive</h1>
+	</div>
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.thirdheading}>The application should offer a secure and pleasant environment, free from competitive pressures. Users can explore the narrative-driven gameplay at their own pace, ensuring a disturbance-free experience within the museum.</h1>
+	</div>
+
+<div className="text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.customheading}>Motivation for Requirement Gathering</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.secheading}>1: Understanding the needs of the stakeholders</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.thirdheading}>In our project, the motivation for requirement gathering is deeply rooted in understanding the unique needs and expectations of all stakeholders involved. We aim to engage not only the end-users but also our esteemed clients, in our case, the organisation of the Hunterian Museum. By conducting thorough requirement gathering, we managed to align everyone's perspectives and create a shared understanding of the project's goals.</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.secheading}>2: Defining Scope and Deliverables</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.thirdheading}>Requirement gathering allowed us to fully understand the scope of the project and identify the specific deliverables that needed to be achieved within the timeframe.</h1>
+	</div>
+
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.secheading}>3: Effective Client Communication</h1>
+	</div>
+	<div className=" text-ternary-dark dark:text-ternary-light" >
+	<h1 className={styles.thirdheading}>One of the primary reasons for conducting requirement gathering was to establish efficient communication channels with our esteemed client, Ruth Fletcher, the Educational Manager at the Hunterian Museum. During our interactions, we discovered that her preferred mode of communication was through emails, complemented by physical or online meetings held once a week. Our ability to ask useful questions, learned in class, made each meeting productive and engaging, ultimately leading to the success of our application.</h1>
+	</div>
+
+
 
 
     <div className="grid grid-cols-2 gap-10 flex-direction-row">
@@ -116,39 +211,9 @@ const Contact = () => {
 
     </div>
 
-    <div style={hello.ridesFriends} className="text-ternary-dark dark:text-ternary-light">
-      <div style={{ textAlign: 'center' }}>
-        <span style={hello.numbers} className="text-ternary-dark dark:text-ternary-light">Target Audience </span>
-        <br />
-        <span style={hello.subText}>For Age Groups 8-11 and 11-14</span>
-      </div>
-      <div style={hello.verticalLine}>
-        <span style={hello.line} className="text-ternary-dark dark:text-ternary-light" ></span>
-      </div>
-      <div style={{ textAlign: 'center' }}>
-        <span style={hello.numbers}>Interactive Experience</span>
-        <br />
-        <span style={hello.subText}>Interactive Experience</span>
-      </div>
-      <div style={hello.verticalLine}>
-        <span style={hello.line}></span>
-      </div>
-      <div style={{ textAlign: 'center' }}>
-        <span style={hello.numbers}>Screen Time</span>
-        <br />
-        <span style={hello.subText}>Reduced Screen time</span>
-      </div>
-      <div style={hello.verticalLine}>
-        <span style={hello.line}></span>
-      </div>
-      <div style={{ textAlign: 'center' }}>
-        <span style={hello.numbers}>Non-competitive</span>
-        <br />
-        <span style={hello.subText}>Incase got kids start running around</span>
-      </div>
-    </div>
 
-<div className=" text-ternary-dark dark:text-ternary-light" >
+
+{/* <div className=" text-ternary-dark dark:text-ternary-light" >
 	<h1 className={styles.customheading}>Ideation</h1>
 	</div>
 
@@ -173,7 +238,9 @@ const Contact = () => {
 	</div>
 	<div className=" text-ternary-dark dark:text-ternary-light" >
 	<h1 className={styles.thirdheading}>This idea, similar to idea 2, involes having different games at different exhibits in the musuem. Games include puzzle games, games involving different pitches and tones, and even a game where shark eats fish. Users get a badge after completing each game</h1>
-	</div>
+	</div> */}
+
+	
 </section>
         </motion.div>
     );

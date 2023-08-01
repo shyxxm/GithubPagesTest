@@ -1,6 +1,8 @@
 import React, { useState } from 'react'; 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import styles from "../css/Picture.module.css";
+
 
 const Prototyping = () => {
 	// array of image file names for initial
@@ -31,8 +33,17 @@ const Prototyping = () => {
 	return (
 	  <>
 	  {/* Section - Hi-Fi Prototype #Initial */}
-      <section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-			<h2 style={{ fontSize: '3rem', marginBottom: '1rem', textAlign: 'center' }}>Hi-Fi Prototypes</h2>
+      <section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }} className=" text-ternary-dark dark:text-ternary-light">
+			{/* <h2 style={{ fontSize: '3rem', marginBottom: '1rem', textAlign: 'center' }}>Hi-Fi Prototypes</h2> */}
+
+			<div className="text-ternary-dark dark:text-ternary-light" >
+				<h1 className={styles.secondheader}>
+				<div className={styles.headerContent}>
+				Hi-Fi Prototypes				
+				</div>
+				</h1>	
+			</div>
+
 			<p style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>
 			<br/>A Hi-Fi prototype is a detailed and interactive depiction of a digital product that closely mirrors the visual aesthetics and functionality of the final product. 
 			The team utilized Figma for fostering an effective collaborative effort in designing the Hi-Fi prototype which best represents the final product.
@@ -42,7 +53,16 @@ const Prototyping = () => {
 		<hr style={{ margin: '2rem 10%', border: '1px solid' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light"/>
         <section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
 		
-			<h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Initial Hi-Fi Prototype</h2>
+			{/* <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Initial Hi-Fi Prototype</h2> */}
+
+			<div className="text-ternary-dark dark:text-ternary-light" >
+    <h1 className={styles.header} style={{marginBottom:'1rem}'}} >
+      <div className={styles.headerContent}>
+	  Initial Hi-Fi Prototype      
+	  </div>
+    </h1>	
+	</div>
+	<br></br>
 
 			{/* Carousel for Figma_Flow_Long */}   
 			<Carousel
@@ -106,7 +126,17 @@ const Prototyping = () => {
 
 		{/* Section - Feedbacks */}
 		<section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">		
-		  	<h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Client Feedback</h2>
+		  	{/* <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Client Feedback</h2> */}
+
+			  <div className="text-ternary-dark dark:text-ternary-light" >
+    <h1 className={styles.header} style={{marginBottom:'1rem}'}} >
+      <div className={styles.headerContent}>
+	  Client Feedback	  </div>
+    </h1>	
+	</div>
+	<br></br>
+
+
 			{/* Cards for sub headers */}
 			<section style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', padding: '1rem 0' }}>
 				<div style={{ boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.1)', padding: '0.5rem', borderRadius: '20px', textAlign: 'center', position: 'relative', border: '2px solid #ccc' }} onMouseOver={() => setShowAge(true)} onMouseLeave={() => setShowAge(false)}>
@@ -145,7 +175,16 @@ const Prototyping = () => {
 
 		{/* Section - Final Prototype */}
 		<section style={{ marginLeft: '10%', marginRight: '10%', padding: '1rem 2rem' }} className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">		
-		  	<h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Final Hi-Fi Prototype</h2>
+		  	{/* <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Final Hi-Fi Prototype</h2> */}
+
+			  <div className="text-ternary-dark dark:text-ternary-light" >
+				<h1 className={styles.header} style={{marginBottom:'1rem}'}} >
+				<div className={styles.headerContent}>
+				Final Hi-Fi Prototype	  </div>
+				</h1>	
+	</div>
+	<br></br>
+
 		{/* Carousel for Figma_Flow_Short */}
 		<section style={{ padding: '1rem 1rem' }}>
 			<Carousel
