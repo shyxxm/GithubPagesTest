@@ -4,6 +4,7 @@ import developerLight from '../../images/developer.svg';
 import developerDark from '../../images/developer-dark.svg';
 import hunterianMuseum from '../../images/hunterian_museum.jpg'
 import { motion } from 'framer-motion';
+import msMonocle from '../../images/Ms_Monocle.png'
 
 const AppBanner = () => {
 	const [activeTheme] = useThemeSwitcher();
@@ -24,9 +25,9 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.1,
 					}}
-					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
-				>
-					The Hunterian Museum Project
+					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase mr-3"
+				> <img src={msMonocle} className="w-20" alt="Dark Logo" />
+					Treasure Hunterian
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -38,8 +39,29 @@ const AppBanner = () => {
 					}}
 					className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
 				>
-					Join us on the journey of how the Hunterian Game was made!
+					We designed Treasure Hunterian, a game for kids to explore while in the museum for mobile website.
 				</motion.p>
+				<br></br>
+				<br></br>
+				<div className='flex justify-center'>
+					<a
+						href="https://shingliya.itch.io/test"
+						target="_blank"
+						style={{
+							backgroundColor: '#0097A7',
+							color: 'white',
+							fontWeight: 'bold',
+							padding: '0.75rem 2.5rem',
+							borderRadius: '0.25rem',
+							boxShadow: '0 2px 4px rgba(0, 0, 0, 1)',
+							transition: 'background-color 0.5s',
+						}}
+						onMouseEnter={(e) => (e.target.style.backgroundColor = 'green')}
+						onMouseLeave={(e) => (e.target.style.backgroundColor = '#0097A7')}>
+
+						Try it now!
+					</a>
+				</div>
 				<motion.div
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
