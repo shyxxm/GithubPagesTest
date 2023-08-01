@@ -165,7 +165,7 @@ const HomePage = () => {
 		</div>
 		<div className="text-ternary-dark dark:text-ternary-light" >
 
-		<figcaption className={styles.secondcaption} >The team's first requirement gathering meeting with Ruth Fletcher, Education Manager at the Hunterian Museum.</figcaption>
+		<figcaption className={styles.secondcaption} >Both teams, working in pairs, brainstorming ideas for the project</figcaption>
 		</div>
     </figure>
 
