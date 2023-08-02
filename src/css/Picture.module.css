@@ -240,7 +240,7 @@
 
 .secondcaption {
     margin-top: 14px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'Times New Roman', Times, serif;
     display: flex; /* Add this to enable flexbox */
     justify-content: center; /* Center horizontally */
